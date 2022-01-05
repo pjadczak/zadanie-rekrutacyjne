@@ -1,0 +1,283 @@
+{
+  "langs": [
+    {
+      "id": 1,
+      "name": "Polski",
+      "code": "pl",
+      "default": true
+    },
+    {
+      "id": 2,
+      "name": "Angielski",
+      "code": "en"
+    },
+    {
+      "id": 3,
+      "name": "Niemiecki",
+      "code": "de"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Przygodowa"
+    },
+    {
+      "id": 2,
+      "name": "Romans"
+    },
+    {
+      "id": 3,
+      "name": "Sci-Fi"
+    },
+    {
+      "id": 4,
+      "name": "Horror"
+    },
+    {
+      "id": 5,
+      "name": "Dla dzieci"
+    },
+    {
+      "id": 6,
+      "name": "Informatyczna"
+    },
+    {
+      "id": 7,
+      "name": "Dramat"
+    },
+    {
+      "id": 8,
+      "name": "Thiller"
+    },
+    {
+      "id": 9,
+      "name": "Psychologiczna"
+    },
+    {
+      "id": 10,
+      "name": "Kryminał"
+    },
+    {
+      "id": 11,
+      "name": "Dokumentalna"
+    },
+    {
+      "id": 12,
+      "name": "Historyczna"
+    },
+    {
+      "id": 13,
+      "name": "Fantasy"
+    },
+    {
+      "id": 14,
+      "name": "Inna"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "rate": 3,
+      "author": "Adam Mickiewicz",
+      "tags": "lektura,mickiewicz,szkoła",
+      "category_id": 12,
+      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/EUok9kuTURBXy9hYjhmYjlmMC0wMjQ1LTQxOTUtODVjNy05YzFjOTIyNmZhMGMuanBlZ5GVAs0DBwDDw4GhMAE",
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "Pan Tadeusz",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "Mr. Tadeusz"
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "Herr Tadeusz"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rate": 6,
+      "author": "Karol May",
+      "tags": "west,cowboy,indian",
+      "imageUrl": "https://static.dw.com/image/18499569_401.jpg",
+      "category_id": 1,
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "Winnetou",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "Winnetou by English"
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "Winnetou by Germany"
+        }
+      ],
+      "dateStart": "2022-01-22T23:00:00.000Z",
+      "dateEnd": "2022-01-28T23:00:00.000Z"
+    },
+    {
+      "author": "Jan Brzechwa",
+      "rate": 8,
+      "imageUrl": "https://ecsmedia.pl/c/lokomotywa-b-iext97336264.jpg",
+      "tags": "brzechwa,dzieci,lokomotywa",
+      "category_id": 5,
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "Lokomotywa",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "Locomotive",
+          "default": false
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "Lokomotive",
+          "default": false
+        }
+      ],
+      "id": 4,
+      "dateStart": "2022-01-10T23:00:00.000Z",
+      "dateEnd": "2022-01-13T23:00:00.000Z"
+    },
+    {
+      "author": "Andrzej Sapkowski",
+      "rate": 9,
+      "dateStart": "2021-04-05T22:00:00.000Z",
+      "dateEnd": "2021-09-12T22:00:00.000Z",
+      "imageUrl": "https://www.taniaksiazka.pl/images/popups/123/68007901377KS.jpg",
+      "tags": "wiedźmin,sapkowski,ostatnie życzenie",
+      "category_id": 13,
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "Ostatnie życzenie",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "Last Wish",
+          "default": false
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "Letzter Wunsch",
+          "default": false
+        }
+      ],
+      "id": 5
+    },
+    {
+      "author": "Andrzej Sapkowski",
+      "rate": 10,
+      "dateStart": "2020-10-05T22:00:00.000Z",
+      "dateEnd": "2021-04-11T22:00:00.000Z",
+      "imageUrl": "https://www.taniaksiazka.pl/images/popups/0F7/9788375780659.jpg",
+      "tags": "krew elfów,sapkowski, andrzej, wiedźmin",
+      "category_id": 13,
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "Krew elfów",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "Blood of Elfs",
+          "default": false
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "Elfenblut",
+          "default": false
+        }
+      ],
+      "id": 6
+    },
+    {
+      "author": "Jules Verne",
+      "rate": 6,
+      "dateStart": "2022-01-03T23:00:00.000Z",
+      "dateEnd": null,
+      "imageUrl": "https://fwcdn.pl/fpo/47/38/94738/7524674.3.jpg",
+      "tags": "Juliusz verne, w 80 dni,przygoda",
+      "category_id": 1,
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "W 80 dni dookoła świata",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "In 80 Tagen um die Welt",
+          "default": false
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "In 80 days around the world",
+          "default": false
+        }
+      ],
+      "id": 7
+    },
+    {
+      "author": "Henryk Sienkiewicz",
+      "names": [
+        {
+          "id": 1,
+          "lang_id": 1,
+          "name": "W pustyni i w puszczy",
+          "default": true
+        },
+        {
+          "id": 2,
+          "lang_id": 2,
+          "name": "In the desert and in the wilderness",
+          "default": false
+        },
+        {
+          "id": 3,
+          "lang_id": 3,
+          "name": "In der Wüste und in der Wildnis",
+          "default": false
+        }
+      ],
+      "rate": 5,
+      "category_id": 1,
+      "imageUrl": "https://image.ceneostatic.pl/data/products/53437892/i-w-pustyni-i-w-puszczy-henryk-sienkiewicz.jpg",
+      "id": 8,
+      "dateEnd": "2022-01-25T23:00:00.000Z",
+      "dateStart": null
+    }
+  ]
+}
