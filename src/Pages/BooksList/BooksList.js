@@ -27,8 +27,9 @@ const BooksList = () => {
     },[CONTEXT.books]);
 
     useEffect(() => {
-        if (search || categoryId){
-            setBooks(CONTEXT.books.filter(book => {
+        let tmpBooks = CONTEXT.books;
+        if (search !== ''){
+            tmpBooks = CONTEXT.books.filter(book => {
 
                 let  valid = false;
                 if (search){
@@ -42,15 +43,16 @@ const BooksList = () => {
                         valid = true;
                     }
                 }
-                if (categoryId && book.category_id === categoryId){
-                    valid = true;
-                }
 
                 return valid;
-            }));
-        } else {
-            setBooks(CONTEXT.books);
+            })
         }
+
+        if (categoryId>0){
+            tmpBooks = tmpBooks.filter(book => book?.category_id === categoryId);
+        }
+
+        setBooks(tmpBooks);
     },[search, categoryId]);
 
     const getName = book => {
